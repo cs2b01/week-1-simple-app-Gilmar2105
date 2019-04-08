@@ -1,12 +1,27 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
+    <title>MyCHAT</title>
 </head>
-
 <body>
-Content of the document......
-</body>
+<center>
+    <h1>MyCHAT</h1>
+    <input type="text" id="us" value="nickname"/>
+    <Br/> <Br/>
+    <input type="password" id="ps"value="nickname"/>
+    <Br/> <Br/>
+    <input type="button" id="bt" value="LOG IN"/>
 
+    <script>
+            var ar = document.getElementById("us");
+            var es = document.getElementById("ps");
+            if (ar.value == es.value){
+                alert("Log in succesfully");
+            }
+            else{
+                alert("Log in failed");
+            }
+    </script>
+</center>>
+</body>
 </html>
